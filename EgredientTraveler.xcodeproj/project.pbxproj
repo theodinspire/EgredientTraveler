@@ -8,24 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		A01918DE1ED5CCC80058EA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01918DD1ED5CCC80058EA06 /* AppDelegate.swift */; };
-		A01918E01ED5CCC80058EA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01918DF1ED5CCC80058EA06 /* ViewController.swift */; };
+		A01918E01ED5CCC80058EA06 /* MeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01918DF1ED5CCC80058EA06 /* MeterViewController.swift */; };
 		A01918E31ED5CCC80058EA06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01918E11ED5CCC80058EA06 /* Main.storyboard */; };
 		A01918E51ED5CCC80058EA06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01918E41ED5CCC80058EA06 /* Assets.xcassets */; };
 		A01918E81ED5CCC80058EA06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01918E61ED5CCC80058EA06 /* LaunchScreen.storyboard */; };
+		A023F1A91ED9BCDF00228E0E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1A81ED9BCDF00228E0E /* Constants.swift */; };
+		A023F1AB1ED9BDF800228E0E /* CMAcceleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1AA1ED9BDF800228E0E /* CMAcceleration.swift */; };
+		A023F1AD1EDA404200228E0E /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1AC1EDA404200228E0E /* Vector.swift */; };
+		A023F1B51EDA42C000228E0E /* EgredientTravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1B41EDA42C000228E0E /* EgredientTravelerTests.swift */; };
+		A023F1BE1EDA42E100228E0E /* VectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1BD1EDA42E100228E0E /* VectorTest.swift */; };
+		A023F1C01EDA4F6300228E0E /* CMQuaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1BF1EDA4F6300228E0E /* CMQuaternion.swift */; };
+		A07445AB1EDB32AA00E982D5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07445AA1EDB32AA00E982D5 /* Array.swift */; };
+		A0C3F8831ED5E51D004557AE /* CMCalibratedMagneticField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3F8821ED5E51D004557AE /* CMCalibratedMagneticField.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A023F1B71EDA42C000228E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01918D21ED5CCC80058EA06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01918D91ED5CCC80058EA06;
+			remoteInfo = EgredientTraveler;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A01918DA1ED5CCC80058EA06 /* EgredientTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgredientTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01918DD1ED5CCC80058EA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A01918DF1ED5CCC80058EA06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A01918DF1ED5CCC80058EA06 /* MeterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeterViewController.swift; sourceTree = "<group>"; };
 		A01918E21ED5CCC80058EA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A01918E41ED5CCC80058EA06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A01918E71ED5CCC80058EA06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01918E91ED5CCC80058EA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A023F1A81ED9BCDF00228E0E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A023F1AA1ED9BDF800228E0E /* CMAcceleration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMAcceleration.swift; sourceTree = "<group>"; };
+		A023F1AC1EDA404200228E0E /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		A023F1B21EDA42C000228E0E /* EgredientTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgredientTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A023F1B41EDA42C000228E0E /* EgredientTravelerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgredientTravelerTests.swift; sourceTree = "<group>"; };
+		A023F1B61EDA42C000228E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A023F1BD1EDA42E100228E0E /* VectorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTest.swift; sourceTree = "<group>"; };
+		A023F1BF1EDA4F6300228E0E /* CMQuaternion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMQuaternion.swift; sourceTree = "<group>"; };
+		A07445AA1EDB32AA00E982D5 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		A0C3F8821ED5E51D004557AE /* CMCalibratedMagneticField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCalibratedMagneticField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A01918D71ED5CCC80058EA06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A023F1AF1EDA42C000228E0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				A01918DC1ED5CCC80058EA06 /* EgredientTraveler */,
+				A023F1B31EDA42C000228E0E /* EgredientTravelerTests */,
 				A01918DB1ED5CCC80058EA06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A01918DA1ED5CCC80058EA06 /* EgredientTraveler.app */,
+				A023F1B21EDA42C000228E0E /* EgredientTravelerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +91,46 @@
 		A01918DC1ED5CCC80058EA06 /* EgredientTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				A0C3F8811ED5E502004557AE /* Utilities */,
 				A01918DD1ED5CCC80058EA06 /* AppDelegate.swift */,
-				A01918DF1ED5CCC80058EA06 /* ViewController.swift */,
+				A01918DF1ED5CCC80058EA06 /* MeterViewController.swift */,
 				A01918E11ED5CCC80058EA06 /* Main.storyboard */,
 				A01918E41ED5CCC80058EA06 /* Assets.xcassets */,
 				A01918E61ED5CCC80058EA06 /* LaunchScreen.storyboard */,
 				A01918E91ED5CCC80058EA06 /* Info.plist */,
 			);
 			path = EgredientTraveler;
+			sourceTree = "<group>";
+		};
+		A023F1B31EDA42C000228E0E /* EgredientTravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A023F1BC1EDA42CA00228E0E /* Utilities */,
+				A023F1B41EDA42C000228E0E /* EgredientTravelerTests.swift */,
+				A023F1B61EDA42C000228E0E /* Info.plist */,
+			);
+			path = EgredientTravelerTests;
+			sourceTree = "<group>";
+		};
+		A023F1BC1EDA42CA00228E0E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A023F1BD1EDA42E100228E0E /* VectorTest.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A0C3F8811ED5E502004557AE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A0C3F8821ED5E51D004557AE /* CMCalibratedMagneticField.swift */,
+				A023F1A81ED9BCDF00228E0E /* Constants.swift */,
+				A023F1AA1ED9BDF800228E0E /* CMAcceleration.swift */,
+				A023F1AC1EDA404200228E0E /* Vector.swift */,
+				A023F1BF1EDA4F6300228E0E /* CMQuaternion.swift */,
+				A07445AA1EDB32AA00E982D5 /* Array.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +153,24 @@
 			productReference = A01918DA1ED5CCC80058EA06 /* EgredientTraveler.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A023F1B11EDA42C000228E0E /* EgredientTravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A023F1B91EDA42C000228E0E /* Build configuration list for PBXNativeTarget "EgredientTravelerTests" */;
+			buildPhases = (
+				A023F1AE1EDA42C000228E0E /* Sources */,
+				A023F1AF1EDA42C000228E0E /* Frameworks */,
+				A023F1B01EDA42C000228E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A023F1B81EDA42C000228E0E /* PBXTargetDependency */,
+			);
+			name = EgredientTravelerTests;
+			productName = EgredientTravelerTests;
+			productReference = A023F1B21EDA42C000228E0E /* EgredientTravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +185,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = MQ79U7S5FQ;
 						ProvisioningStyle = Automatic;
+					};
+					A023F1B11EDA42C000228E0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MQ79U7S5FQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A01918D91ED5CCC80058EA06;
 					};
 				};
 			};
@@ -115,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				A01918D91ED5CCC80058EA06 /* EgredientTraveler */,
+				A023F1B11EDA42C000228E0E /* EgredientTravelerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +224,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A023F1B01EDA42C000228E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +238,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A01918E01ED5CCC80058EA06 /* ViewController.swift in Sources */,
+				A023F1AB1ED9BDF800228E0E /* CMAcceleration.swift in Sources */,
+				A023F1C01EDA4F6300228E0E /* CMQuaternion.swift in Sources */,
+				A01918E01ED5CCC80058EA06 /* MeterViewController.swift in Sources */,
 				A01918DE1ED5CCC80058EA06 /* AppDelegate.swift in Sources */,
+				A0C3F8831ED5E51D004557AE /* CMCalibratedMagneticField.swift in Sources */,
+				A07445AB1EDB32AA00E982D5 /* Array.swift in Sources */,
+				A023F1AD1EDA404200228E0E /* Vector.swift in Sources */,
+				A023F1A91ED9BCDF00228E0E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A023F1AE1EDA42C000228E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A023F1BE1EDA42E100228E0E /* VectorTest.swift in Sources */,
+				A023F1B51EDA42C000228E0E /* EgredientTravelerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A023F1B81EDA42C000228E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01918D91ED5CCC80058EA06 /* EgredientTraveler */;
+			targetProxy = A023F1B71EDA42C000228E0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A01918E11ED5CCC80058EA06 /* Main.storyboard */ = {
@@ -283,6 +407,34 @@
 			};
 			name = Release;
 		};
+		A023F1BA1EDA42C000228E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = EgredientTravelerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodinspire.EgredientTravelerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgredientTraveler.app/EgredientTraveler";
+			};
+			name = Debug;
+		};
+		A023F1BB1EDA42C000228E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = EgredientTravelerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theodinspire.EgredientTravelerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgredientTraveler.app/EgredientTraveler";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -302,6 +454,16 @@
 				A01918EE1ED5CCC80058EA06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A023F1B91EDA42C000228E0E /* Build configuration list for PBXNativeTarget "EgredientTravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A023F1BA1EDA42C000228E0E /* Debug */,
+				A023F1BB1EDA42C000228E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
