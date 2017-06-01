@@ -19,6 +19,7 @@
 		A023F1BE1EDA42E100228E0E /* VectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1BD1EDA42E100228E0E /* VectorTest.swift */; };
 		A023F1C01EDA4F6300228E0E /* CMQuaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A023F1BF1EDA4F6300228E0E /* CMQuaternion.swift */; };
 		A07445AB1EDB32AA00E982D5 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07445AA1EDB32AA00E982D5 /* Array.swift */; };
+		A0BC20FA1EDCAEC5001DE957 /* TravelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC20F91EDCAEC5001DE957 /* TravelData.swift */; };
 		A0C3F8831ED5E51D004557AE /* CMCalibratedMagneticField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C3F8821ED5E51D004557AE /* CMCalibratedMagneticField.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		A023F1BD1EDA42E100228E0E /* VectorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTest.swift; sourceTree = "<group>"; };
 		A023F1BF1EDA4F6300228E0E /* CMQuaternion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMQuaternion.swift; sourceTree = "<group>"; };
 		A07445AA1EDB32AA00E982D5 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		A0BC20F91EDCAEC5001DE957 /* TravelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelData.swift; sourceTree = "<group>"; };
 		A0C3F8821ED5E51D004557AE /* CMCalibratedMagneticField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMCalibratedMagneticField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 		A01918DC1ED5CCC80058EA06 /* EgredientTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				A0BC20F81EDCAE91001DE957 /* Model */,
 				A0C3F8811ED5E502004557AE /* Utilities */,
 				A01918DD1ED5CCC80058EA06 /* AppDelegate.swift */,
 				A01918DF1ED5CCC80058EA06 /* MeterViewController.swift */,
@@ -118,6 +121,14 @@
 				A023F1BD1EDA42E100228E0E /* VectorTest.swift */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A0BC20F81EDCAE91001DE957 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC20F91EDCAEC5001DE957 /* TravelData.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		A0C3F8811ED5E502004557AE /* Utilities */ = {
@@ -242,6 +253,7 @@
 				A023F1C01EDA4F6300228E0E /* CMQuaternion.swift in Sources */,
 				A01918E01ED5CCC80058EA06 /* MeterViewController.swift in Sources */,
 				A01918DE1ED5CCC80058EA06 /* AppDelegate.swift in Sources */,
+				A0BC20FA1EDCAEC5001DE957 /* TravelData.swift in Sources */,
 				A0C3F8831ED5E51D004557AE /* CMCalibratedMagneticField.swift in Sources */,
 				A07445AB1EDB32AA00E982D5 /* Array.swift in Sources */,
 				A023F1AD1EDA404200228E0E /* Vector.swift in Sources */,
